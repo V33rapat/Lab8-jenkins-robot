@@ -23,21 +23,21 @@ Repository นี้เป็นส่วนหนึ่งของแบบฝ
     └── Lab8.robot
 ```
 
-### รายละเอียดไฟล์
+## รายละเอียดไฟล์
 - Jenkinsfile
   - ใช้กำหนดขั้นตอนการทำงานของ Jenkins Pipeline เช่น การแสดงผลข้อความ หรือการรัน test
 
 - tests/Lab8.robot
   - ไฟล์ทดสอบที่เขียนด้วย Robot Framework สำหรับใช้ทดสอบระบบในขั้นตอน UAT
 
-### เครื่องมือที่ใช้
+## เครื่องมือที่ใช้
 
 - Docker Desktop
 - Jenkins (รันบน Docker Container)
 - Robot Framework
 - GitHub
 
-### ขั้นตอนการทำงานโดยสรุป
+## ขั้นตอนการทำงานโดยสรุป
 
 - Build Docker image สำหรับ Jenkins และ Environment ที่รองรับ Robot Framework
 - Run Jenkins container และผูกพอร์ตที่ 8080
@@ -46,6 +46,6 @@ Repository นี้เป็นส่วนหนึ่งของแบบฝ
 - ใช้ Jenkinsfile เพื่อ execute ขั้นตอนการทำงาน
 - รัน Robot Framework test จากโฟลเดอร์ tests/
 
-### หมายเหตุ
+## หมายเหตุ
 
 - Repository นี้จัดทำขึ้นเพื่อการศึกษาและการเรียนรู้เท่านั้น
