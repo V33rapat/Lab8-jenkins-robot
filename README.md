@@ -5,8 +5,6 @@ Repository นี้เป็นส่วนหนึ่งของแบบฝ
 มีวัตถุประสงค์เพื่อฝึกการใช้งาน Docker, Jenkins และ Robot Framework  
 ตั้งแต่การ build image, run container ไปจนถึงการสร้าง Jenkins Pipeline อย่างง่าย
 
----
-
 ## วัตถุประสงค์ของแบบฝึกปฏิบัติ
 
 - เข้าใจการใช้งาน Docker image และ Docker container
@@ -14,8 +12,6 @@ Repository นี้เป็นส่วนหนึ่งของแบบฝ
 - เข้าใจการทำงานของ Jenkins และการตั้งค่า Jenkins ผ่าน Docker
 - สร้าง Pipeline อย่างง่ายเพื่อรัน Robot Framework test
 - ฝึกการจัดการ Source code บน GitHub ร่วมกับ Jenkins
-
----
 
 ## โครงสร้างของ Repository
 
@@ -27,7 +23,7 @@ Repository นี้เป็นส่วนหนึ่งของแบบฝ
     └── Lab8.robot
 ```
 
-รายละเอียดไฟล์
+### รายละเอียดไฟล์
 - Jenkinsfile
   - ใช้กำหนดขั้นตอนการทำงานของ Jenkins Pipeline เช่น การแสดงผลข้อความ หรือการรัน test
 
